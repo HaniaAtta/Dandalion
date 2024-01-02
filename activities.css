@@ -1,0 +1,87 @@
+*{
+  font-family: poppins;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: grey; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1F2027; 
+  }
+.paralacti{
+  background-image: url('./images/784.jpg');
+  background-repeat: none;
+ height: 700px;
+  background-size: cover;
+}
+.a2{
+    background-color: #123420;
+    border: 1px #123420;
+    color: white;
+    padding: 10px;
+    border: 10px;
+}
+
+.class{
+  font-family: Poppins;
+}
+.oft{
+  font-family: libre baskerville;
+  color: #225839;
+}
+.a2:hover{
+    background-color: #225839;
+    border: 1px #123420;
+}
+.centeraa{
+    text-align: center;
+}
+.card45{
+    right: 0;
+}
+.tall{
+    text-align: center;
+    margin-top: 3%;
+}
+.rdi{
+    border-radius: 10%;
+}
+.sqr{
+    color: #123420;
+    font-size: 80%;
+}
+#bg{
+  background-image: url('./images/785.jpg');
+  background-repeat: no repeat;
+background-size:cover;
+height:50%;
+width:100%;
+
+  
+}
+.doc{
+  color: #0B4D09;
+}
+.banner{
+  
+  padding: 50px;
+ 
+    text-align: left;
+    
+    font-family: poppins;
+    
+}
