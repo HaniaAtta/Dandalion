@@ -60,6 +60,11 @@ bottom: 20%;}
     padding: 2%;
     border: 4px #097c0fee;
 }
+.bread{
+    color: white;
+   list-style-type: none;
+   display: flex;
+  }
 .sub6:hover{
     background-color: #097c0fee;
     border: 2px #097c0fee

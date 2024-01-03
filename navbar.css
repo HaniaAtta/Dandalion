@@ -34,6 +34,16 @@ text-decoration: none;
   color: white;
   text-decoration: none;
 }
+.poterr:hover{
+  color: rgb(19, 48, 19);
+}
+.fixleft:hover{
+  background-color:  rgb(19, 48, 19);
+}
+.fixleft:focus{
+  background-color:  rgb(19, 48, 19);
+
+}
 .fixleft{
 background: none repeat scroll 0 0 rgb(19, 48, 19);
 border: medium none;

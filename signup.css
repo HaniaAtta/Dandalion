@@ -14,6 +14,11 @@ body{
   background-color: rgb(7, 53, 7);
   padding: 30px;
 }
+.bread{
+  color: white;
+ list-style-type: none;
+
+}
 .text a{
   color:  rgb(7, 53, 7);
 }
