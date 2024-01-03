@@ -20,7 +20,10 @@
  
  position: fixed;
  height: 60px;}
-
+.space5{
+  float: right;
+  margin-right: 5%;
+}
 
 .items1{margin-left: 220px;}		
 

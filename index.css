@@ -115,11 +115,11 @@
   width: 100%;
  
 }
-#background{
+#background1{
   background-image: url('./images/banner.jpg');
   background-repeat: no repeat;
 background-size:cover;
-height:40%;
+height: 70%;
 width:100%;
   
 }
