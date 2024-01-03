@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="aboutus.css">
-
+<link rel="stylesheet" href="darklight.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript"
     src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
@@ -32,7 +32,7 @@
 <script src="nav.js"></script>
 <script src="footer.js"></script>
 </head>
-<body>
+<body class="light">
   <nav class=" fixed-top d3">
       
     <div class="row"> <div class="col top" ><p class="tex"> Shop Our Festive Collection <a href="eshop.html" class="xyz" ><b> Here</b></a> </p></div></div></nav>
@@ -72,6 +72,8 @@
             </li>
                     <a class="nav-link " href="signup.html" >Sign-Up</a>
             </li>
+           
+    
           </ul>
         </div></div>
     </nav></div></div>
@@ -79,6 +81,7 @@
 
 <div class="parall"></div>
 <br>
+
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
@@ -86,6 +89,13 @@
     <li class="breadcrumb-item active" aria-current="page">About us</li>
   </ol>
 </nav>
+<br>
+
+<label class="toggle-switch">
+  <input type="checkbox" onchange="toggleDarkLight()" id="darkLightToggle">
+  <span class="slider round"></span>
+</label>
+
 <button type="button" class="btn btn-primary fixleft"> <a href="policy.html" class="poterr">Privacy Policy</a></button>
 
 
@@ -93,6 +103,7 @@
     <div class="row">
         <div class="col-md-6">
 <!--manahil-->
+
 
  <img src="images/manahil.jpeg" class="image-fluid w-100"> </div>
     <div class="col-md-6 hniata">
@@ -220,6 +231,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 <script  src="btoggle.js"></script>
-
+<script src="darklight.js"></script>
 </body>
 </html>

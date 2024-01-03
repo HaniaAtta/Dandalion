@@ -27,7 +27,7 @@
 <link rel="stylesheet" href="footer.css">
 <link rel="stylesheet" href="navbar.css">
 <link rel="stylesheet" href="cookies.css" />
-  
+  <link rel="stylesheet" href="darklight.css">
 <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
 <script src="cookies.js" defer></script>
 <script type="text/javascript"
@@ -39,7 +39,7 @@
    })();
 </script>
 </head>
-<body>
+<body class="light">
   
   <script src="nav.js"></script>
   <script src="footer.js"></script>
@@ -133,7 +133,10 @@ emailjs.init("HsEoO2VcD9ojEMOyr");
           <div class="carousel-item">
             <img src="images/home3.jpg" class="d-block image-fluid w-100" alt="..." >
             <div ><p class="text1">Dandelions </p>
-              <br><p class="text2">Where Wonders Bloom</p></div>
+              <br><p class="text2">Where
+                <br>
+             Wonders
+             <br> Bloom</p></div>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -146,7 +149,7 @@ emailjs.init("HsEoO2VcD9ojEMOyr");
         </button>
         
       </div>
-    <br>
+
     <div class="toast" data-autohide="false">
       <div class="toast-header">
       <img src="images/logo-dand.jpeg" class="rounded me-2" alt="...">
@@ -162,8 +165,7 @@ emailjs.init("HsEoO2VcD9ojEMOyr");
     <br>
     <br>
     <!-----body------>
-    <br>
-    <br>
+   
     
     <div class="container main_p">
       <br>
@@ -173,9 +175,16 @@ emailjs.init("HsEoO2VcD9ojEMOyr");
           <li class="breadcrumb-item active" aria-current="page">Home</li>
         </ol>
       </nav>
+   
+     
+
+<label class="toggle-switch">
+  <input type="checkbox" onchange="toggleDarkLight()" id="darkLightToggle">
+  <span class="slider round"></span>
+</label>
       <div class="row"><div class="col"><h1 class="p1"> Garden of <b>Wonder</b></h1>
         <br>
-        <br>
+    
         <p class="p2">Welcome to a sanctuary of natural wonders, where lush landscapes and diverse ecosystems come together to create a haven for botanical enthusiasts and nature lovers alike. Our botanical garden is a living tapestry of colors, textures, and fragrances, inviting you to embark on a journey through the beauty of the plant kingdom. Immerse yourself in the tranquility of carefully cultivated gardens, each telling a unique story of <b>botanical diversity</b> and conservation. From rare and exotic species to familiar favorites, our garden is a living encyclopedia of the world's plant life. Whether you seek a peaceful retreat, a place for education and exploration, or simply a breath of fresh air, our botanical garden promises a captivating experience for all who venture within its gates. Come, discover the extraordinary tapestry of life that awaits you in our botanical oasis. <a href="history.html" class="xyz">Click here to know about the History.</a> </p>
       </div></div>
 </div>
@@ -336,6 +345,7 @@ emailjs.init("HsEoO2VcD9ojEMOyr");
     </div>
   </div>
 </footer>
+<script src="darklight.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> 
