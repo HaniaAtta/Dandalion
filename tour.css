@@ -194,6 +194,14 @@ background-repeat: no repeat;
 background-size:cover;
 
 }
+.rounder1{
+  background-image: url('./images/touring.jpg');
+  height: 600px;
+  background-size: cover;
+  background-attachment: fixed;
+background-repeat: no-repeat;
+  background-position: center;
+}
 .button {
   position: relative;
   background-color: #123420;

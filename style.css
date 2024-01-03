@@ -149,7 +149,14 @@ background: #21541F;
     }
 }
 
-
+.remedy657{
+    background-image: url('./images/imgr5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+background-position: center;
+    height: 600px;
+}
 
 .box-panel{
     
@@ -510,9 +517,10 @@ justify-content: space-evenly;}
 }
 .parallre4{
     background-image:url('./images/gallery5.jpeg') ;
-    background-repeat: none;
+    background-repeat: no-repeat;
     height: 700px;
-    position: relative;
+    background-attachment: fixed;
+    background-position: center;
     background-size: cover;
 }
 .heading{text-align: center;
@@ -524,9 +532,11 @@ margin-top: -6px;
                }
                 .parallax56{
 background-image: url('./images/Doctor.jpg');
-background-repeat: none;
+background-repeat: no-repeat;
 height: 500px;
 background-size: cover;
+background-attachment: fixed;
+background-position: center;
                 }
                 .red25{
                     justify-content: space-evenly;

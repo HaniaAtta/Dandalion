@@ -56,7 +56,13 @@ margin-top: 20px;
 font-size:25px;
 }
 
-
+.pasha{
+  background-image: url('images/shop.jpg');
+  background-repeat: no-repeat;
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;  background-size: cover;
+}
 .main_image img{
 height:40%;
 width:100%;

@@ -30,7 +30,7 @@
 }
 .manahil{
     background-image: url('./images/manai.jpeg');
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-position: fixed;
     background-size: cover;
     margin-top: 5%;
@@ -42,7 +42,7 @@ text-align: center;
 
   
     background-image: url('./images/han.jpeg');
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-position: fixed;
     background-size: cover;
     margin-top: 7%;
@@ -54,7 +54,7 @@ text-align: center;
     text-align: center;
 
     background-image: url('./images/mena.jpeg');
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-position: fixed;
     background-size: cover;
     margin-top: 7%;

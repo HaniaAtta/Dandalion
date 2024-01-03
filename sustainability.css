@@ -34,7 +34,14 @@ text-align: left;
     font-family: poppins;
 }
 
-
+.sustac{
+  background-image: url('./images/garden12.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 600px;
+}
 .button76 {
     border-radius: 4px;
     background-color: #387E32;

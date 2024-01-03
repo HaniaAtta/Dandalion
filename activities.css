@@ -24,9 +24,11 @@
   }
 .paralacti{
   background-image: url('./images/784.jpg');
-  background-repeat: none;
+  background-repeat: no-repeat;
  height: 700px;
   background-size: cover;
+  background-attachment: fixed;
+background-position: center;
 }
 .a2{
     background-color: #123420;
