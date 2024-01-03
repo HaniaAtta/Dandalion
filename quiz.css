@@ -19,6 +19,7 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #1F2027; 
   }
+  body{background-color: #f9f8f6}
 
 .quizy{
     text-align: center;

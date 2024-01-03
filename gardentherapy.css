@@ -20,8 +20,10 @@
     background: #1F2027; 
   }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: poppins;
 }
+body{background-color: #f9f8f6}
+
 .parallex1 {
     background-image: url('./images/garden1.jpg');
     height: 700px;

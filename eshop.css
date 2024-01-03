@@ -113,6 +113,16 @@ color:whitesmoke;
   ::-webkit-scrollbar-thumb:hover {
     background: #1F2027; 
   }
+.micas{
+border: 1px solid #fff;
+transition: box-shadow 0.3s ease-in-out;
+
+}
+.micas:hover{
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+
+}
+body{background-color: #f9f8f6}
 
 .text1{
     font-size: 100px;
