@@ -14,7 +14,9 @@
     box-shadow: inset 0 0 5px grey; 
     border-radius: 10px;
   }
-  body{background-color: #f9f8f6}
+  body{background-color: #f9f8f6;
+  font-family: Poppins;
+  }
 
   /* Handle */
   ::-webkit-scrollbar-thumb {

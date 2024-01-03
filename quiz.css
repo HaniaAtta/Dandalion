@@ -37,6 +37,9 @@
 .margins{
     margin-left: 8%;
 }
+*{
+  font-family: poppins;
+}
 .a5{
     background-color: #123420;
     border: 1px #123420;

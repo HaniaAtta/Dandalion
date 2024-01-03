@@ -111,7 +111,24 @@ color:whitesmoke;
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #1F2027; 
+    background: #123420; 
+  }
+  .music3:focus{
+    background-color: #123420;
+    color: white;
+    border: 2px #123420;
+  }
+  .music3:hover{
+    background-color: #123420;
+    color: white;
+    border: 2px #123420;
+  }
+  .music3{
+    background-color: #123420;
+    color: white;
+    border: 2px #123420;
+
+
   }
 .micas{
 border: 1px solid #fff;
@@ -123,7 +140,11 @@ transition: box-shadow 0.3s ease-in-out;
 
 }
 body{background-color: #f9f8f6}
-
+.faqs2{
+  text-align: center;
+  font-size: 34px;
+  color: #123420;
+}
 .text1{
     font-size: 100px;
     font-family: Libre Baskerville;

@@ -22,7 +22,8 @@
 body{
     font-family: poppins;
 }
-body{background-color: #f9f8f6}
+body{background-color: #f9f8f6;
+font-family: poppins;}
 
 .parallex1 {
     background-image: url('./images/garden1.jpg');
