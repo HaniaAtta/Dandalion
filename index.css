@@ -20,26 +20,26 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #1F2027; 
   }
-
+.htex3{
+  top: 35%;
+ left: 12%;
+  position: absolute;
+ 
+  transform: translate( 0, 0); 
+  color: whitesmoke;
+}
 .text1{
-    font-size: 550%;
+    font-size: 360%;
     font-family: Libre Baskerville;
     
-    position: absolute;
-  top: 35%;
-  left: 26%;
-  transform: translate(-50%, -50%); 
-  color: whitesmoke;
+    
 
 }
 .text2{
-    font-size: 220%;
+    font-size: 150%;
     font-family: Poppins;
     color: whitesmoke;
-    position: absolute;
-  top: 43%;
-  left: 26%;
-  transform: translate(-50%, -50%); 
+ 
 }
 .xyz{
   color:#387E32 ;
