@@ -229,6 +229,8 @@
   @media (max-width: 700px){
     .footback{
       height: 700px;
+      background-size: cover;
+
     }
     footer{
       position: relative;
@@ -255,6 +257,7 @@
   }
   @media (max-width: 520px){
     .footback{
+      background-size: cover;
       height: 700px;
     }
     footer::before{
