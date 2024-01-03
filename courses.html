@@ -19,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Dancing+Script:wght@400;500&family=Lora&family=Noto+Serif:wght@500&family=Playfair+Display&family=Poppins:wght@300&family=Quicksand:wght@500&family=Roboto:ital,wght@0,100;1,300&family=Vollkorn:ital@1&display=swap" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
+<link rel="stylesheet" href="darklight.css">
 <link rel="stylesheet" href="courses.css">
 <link rel="stylesheet" href="footer.css">
 <link rel="stylesheet" href="navbar.css">
@@ -94,6 +94,11 @@
       </ol>
     </nav>
     <br>
+
+    <label class="toggle-switch">
+      <input type="checkbox" onchange="toggleDarkLight()" id="darkLightToggle">
+      <span class="slider round"></span>
+    </label>
     <br>
     <br>
     <button type="button" class="btn btn-primary fixleft"> <a href="policy.html" class="poterr">Privacy Policy</a></button>
@@ -386,5 +391,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> 
+<script src="darklight.js"></script>
+
 </body>
 </html>

@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Bitter:ital,wght@0,500;1,500&family=Cormorant+Garamond:ital,wght@0,300;1,300&family=Cormorant+SC:wght@300&family=Dancing+Script&family=Lora&family=Uchen&family=Vollkorn:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    
+    <link rel="stylesheet" href="darklight.css">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="wellbeing.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -87,6 +87,12 @@
     <li class="breadcrumb-item active" aria-current="page">Wellbeing</li>
   </ol>
 </nav>
+<br>
+
+<label class="toggle-switch">
+  <input type="checkbox" onchange="toggleDarkLight()" id="darkLightToggle">
+  <span class="slider round"></span>
+</label>
 <button type="button" class="btn btn-primary fixleft"> <a href="policy.html" class="poterr">Privacy Policy</a></button>
 
     <div class="container "><div class="row ">
@@ -292,6 +298,6 @@ Gardening helped people to rehabilitate physically and mentally.
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-
+<script src="darklight.js"></script>
 </body>
 </html>
