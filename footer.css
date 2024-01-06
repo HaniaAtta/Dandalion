@@ -105,10 +105,10 @@
     left: 25%;
     position: relative;
   }
-  .icon {
+  .icon4 {
     display: inline;
   }
-  .icon:hover{
+  .icon4:hover{
     color: #123420;
     text-decoration: underline;
   }.box {
